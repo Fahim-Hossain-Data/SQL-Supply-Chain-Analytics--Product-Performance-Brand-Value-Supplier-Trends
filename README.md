@@ -2,7 +2,7 @@
 
 ### This project presents an end-to-end SQL analysis for an electronics company, using poducts, inventory, and suppliers datasets to address three key business questions related to stock management and sales performance.
 
-#### <span style="color:blue">SQL Functions & Features Used: SUM(), AVG(), JOIN(), WHERE(), BETWEEN(), GROUP BY(), HAVING(), CTEs, RANK(), ROW_NUMBER(), LAG(), ORDER BY(), CASE, Subquery, ROUND(), and filtering logic.</span>
+<span style="color: #0366d6;">SUM()</span>, <span style="color: #0366d6;">AVG()</span>, <span style="color: #0366d6;">JOIN()</span>, <span style="color: #0366d6;">WHERE()</span>, <span style="color: #0366d6;">BETWEEN()</span>, <span style="color: #0366d6;">GROUP BY()</span>, <span style="color: #0366d6;">HAVING()</span>, <span style="color: #0366d6;">CTEs</span>, <span style="color: #0366d6;">RANK()</span>, <span style="color: #0366d6;">ROW_NUMBER()</span>, <span style="color: #0366d6;">LAG()</span>, <span style="color: #0366d6;">ORDER BY()</span>, <span style="color: #0366d6;">CASE</span>, <span style="color: #0366d6;">Subquery</span>, <span style="color: #0366d6;">ROUND()</span>, and filtering logic
 
 The follwoing figure depicts the database tables along with the data generation plan used to populate them.
 
