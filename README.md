@@ -10,3 +10,12 @@ The next figure presents the database diagram, illustrating the relationships be
 
 ![image alt](https://github.com/Fahim0729/Supply-Chain-Analytics-Using-SQL-Inventory-Sales-Supplier-Insights/blob/29b2e9fcb6568ae46ca4417bcb80b131f7e53269/Database_Diagram.png)
 
+### The questions have been solved using SQL queries, and the SQL functions applied to solve them are listed below
+#### Q1. Identify brands with significant restocking activity (>50 units) in the second half of 2025 (July-December) and analyze their average shelf inventory value to optimize supply chain planning for next year.
+SQL Aggregate and Filtering Functions : SUM(), AVG(), JOIN, BETWEEN, WHERE, GROUP BY, HAVING 
+
+#### Q2. Identify the top 5 products by total quantity sold and categorize them as High, Medium, or Low velocity to understand sales performance trends.
+SQL CTEs with Ranking and Conditional Logic: CTEs, JOIN, RANK(), ORDER BY, CASE
+
+#### Q3. Identify the top 3 suppliers with the largest positive change in received quantity by comparing their most recent delivery to their previous delivery, to understand suppliers with significant restocking trends.
+SQL Subquery with Window Functions: Subquery, JOIN, LAG, ROW_NUMBER, RANK, ROUND, and filtering logic
