@@ -136,10 +136,11 @@ FROM [[SQl_Portfolio]]].dbo.dim_product;
 -- 3. 3. Type conversion (CAST(Cost_Price AS DECIMAL(10,2)), TRY_CAST())
 -- Convert both columns to DECIMAL(10,2)
 SELECT 
-    Product_Name,
+    Product_Name, Cost_Price, Retail_Price,
     CAST([[SQl_Portfolio]]].dbo.dim_product.Cost_Price AS DECIMAL(10,2)) AS Cost_Price_Decimal,
     CAST([[SQl_Portfolio]]].dbo.dim_product.Retail_Price AS DECIMAL(10,2)) AS Retail_Price_Decimal
 FROM [[SQl_Portfolio]]].dbo.dim_product;
 
 select *
 from [[SQl_Portfolio]]].dbo.dim_product
+
