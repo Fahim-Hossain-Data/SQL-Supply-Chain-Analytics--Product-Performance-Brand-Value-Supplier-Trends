@@ -52,10 +52,14 @@ The questions have been solved using SQL queries, and the SQL functions applied 
 ### 📌 Q2. Product Sales Velocity
 **Identify the top 5 products by total quantity sold and categorize them as High, Medium, or Low velocity to understand sales performance trends.**
 
+![Q2](https://github.com/Fahim0729/Supply-Chain-Analytics-Using-SQL-Inventory-Sales-Supplier-Insights/blob/28f41ad3b6e538d1e7a947c404e91475f4f7f43f/Q2.png)
+
 🔹 SQL Functions: CTEs, JOIN, RANK(), ORDER BY, CASE
 
 ### 📌 Q3. Supplier Restocking Trend Analysis
 **Identify the top 3 suppliers with the largest positive change in received quantity by comparing their most recent delivery to their previous delivery, to understand suppliers with significant restocking trends.**
+
+![Q3](https://github.com/Fahim0729/Supply-Chain-Analytics-Using-SQL-Inventory-Sales-Supplier-Insights/blob/28f41ad3b6e538d1e7a947c404e91475f4f7f43f/Q3.png)
 
 🔹 SQL Functions: Subquery, JOIN, LAG, ROW_NUMBER, RANK, ROUND, Filtering Logic
 
