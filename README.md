@@ -42,6 +42,7 @@ Each fact table is connected to the three dimension tables, establishing relatio
   <em>Figure: Database Diagram Illustrating Relationships Between Fact and Dimension Tables</em>
 </p>
 
+---
 
 ## 📋 Business Questions & SQL Functions
 
@@ -62,6 +63,7 @@ However, Sony had the highest average stock value despite being in 5th position 
   <em>Figure: Stock Analysis by Brand (July–December 2025)</em>
 </p>
 
+--
 
 ### 📌 Q2. Product Sales Velocity
 **Identify the top 5 products by total quantity sold and categorize them as High (more than 90 units) Medium (60 to 90 units), or 
@@ -78,6 +80,7 @@ Low velocity (less than 60 units) to understand sales performance trends.**
   <em>Figure: Product Rankings and Classifications</em>
 </p>
 
+---
 
 ### 📌 Q3. Supplier Restocking Trend Analysis
 **Identify the top 3 suppliers with the largest positive change in received quantity by comparing their most recent delivery to their previous delivery, to understand suppliers with significant restocking trends.**
@@ -92,6 +95,8 @@ Low velocity (less than 60 units) to understand sales performance trends.**
   <br>
   <em>Figure: Suppliers with the Highest Increases in Received Quantity – Latest Delivery Data</em>
 </p>
+
+---
 
 ### ⚙️ Data Cleaning / Preprocessing
 📝 Several data cleaning steps were explored during the project to ensure data quality. Any zero values in Cost_Price or Retail_Price were checked and replaced with NULL or default values using COALESCE, and the price columns were converted to DECIMAL(10,2) for consistency. Additionally, text fields such as Product_Type were standardized by capitalizing the first letter and converting the rest to lowercase. These steps were performed as part of the data preparation process to verify that price and product data were in the correct format.
