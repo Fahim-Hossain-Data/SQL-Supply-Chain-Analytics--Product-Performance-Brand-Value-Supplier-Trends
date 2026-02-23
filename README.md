@@ -118,6 +118,11 @@ Several data cleaning steps were explored during the project to ensure data qual
 
 ---
 
+## 🌐 I’d Love to Connect!
+
+- **LinkedIn:** [Md Fahim Hossain](https://www.linkedin.com/in/yourprofile)  
+- **Email:** 
+
 <div align="center">
   
 **[⬆ Back to Top](#top)**
