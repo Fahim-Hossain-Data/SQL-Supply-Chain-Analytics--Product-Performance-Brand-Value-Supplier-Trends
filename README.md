@@ -91,7 +91,7 @@ Low velocity (less than 60 units) to understand sales performance trends.**
 
 🔹 SQL Functions: Subquery, JOIN, LAG, ROW_NUMBER, RANK, ROUND, Filtering Logic
 
-📝 The analysis identifies the top three suppliers with the largest positive change in received quantity by comparing their most recent delivery to the previous one. Samsung recorded the highest increase, receiving 90 units on 20 December 2025, which was 20 units more than its previous delivery. ENE was at the third position with a delivery of 77 units on 2 December 2025, which is 15 units more than what Toshiba had received previously. These findings identify suppliers with considerable tendencies of restocking over the period.
+📝 The analysis identifies the top three suppliers with the largest positive change in received quantity by comparing their most recent delivery to the previous one. Samsung recorded the highest increase, receiving 90 units on 20 December 2025, which was 20 units more than its previous delivery. ENE was at the third position with a delivery of 77 units on 2 December 2025, which was 15 units more than what Toshiba had received previously. These findings identify suppliers with considerable tendencies of restocking over the period.
 
 
 *The figure below presents the most recent deliveries of suppliers with the largest positive changes in received quantity.*
