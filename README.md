@@ -120,8 +120,8 @@ Several data cleaning steps were explored during the project to ensure data qual
 
 ## 🌐 I’d Love to Connect!
 
-- **LinkedIn:** [Md Fahim Hossain](https://www.linkedin.com/in/yourprofile)  
-- **Email:** 
+- **LinkedIn:** [Md Fahim Hossain](https://www.linkedin.com/in/md-fahim-hossain-b51258227/)  
+- **Email:** [fahimhossain0729@gmail.com](mailto:fahimhossain0729@gmail.com)
 
 <div align="center">
   
