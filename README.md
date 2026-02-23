@@ -48,7 +48,7 @@ Each fact table is connected to the three dimension tables, establishing relatio
 
 ---
 
-## 📋 Business Questions & SQL Functions
+## 📋 Business Questions & [SQL Functions](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/21721845e0c951d62deb50fdbf61d5d42f37f039/2.%20SQL_Qustion%26Answer.sql)
 
 The following section presents the answers to the questions along with the SQL queries used, and lists the SQL functions applied to solve each question.
 
