@@ -15,11 +15,15 @@ This project presents an end-to-end SQL analysis for an electronics company, usi
 
 The `SQL_Portfolio` database was created with five tables to address the business questions of the electronics company. Three of these are dimension tables, and two are fact tables:
 
+<div align="center">
+
 | **Dimension Tables** | **Fact Tables** |
-|---------------------|-----------------|
-| • product | • received_purchase_orders |
-| • suppliers | • stock_level |
-| • datetime | |
+|:-------------------:|:---------------:|
+| • product           | • received_purchase_orders |
+| • suppliers         | • stock_level   |
+| • datetime          |                |
+
+</div>
 
 ### 📈 Data Generation Plan
 All tables, except the datetime table, were populated from the `staging database`, where four external Excel files related to product, suppliers, received_orders, and stock_level had been previously uploaded. The datetime table was created using a SQL script that generates dates from January 1, 2025, to December 31, 2025.
