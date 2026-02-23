@@ -103,7 +103,7 @@ Low velocity (less than 60 units) to understand sales performance trends.**
 ---
 
 ### ⚙️ Data Cleaning / Preprocessing
-📝 Several data cleaning steps were explored during the project to ensure data quality. Any zero values in Cost_Price or Retail_Price were checked and replaced with NULL or default values using COALESCE, and the price columns were converted to DECIMAL(10,2) for consistency. Additionally, text fields such as Product_Type were standardized by capitalizing the first letter and converting the rest to lowercase. These steps were performed as part of the data preparation process to verify that price and product data were in the correct format.
+Several data cleaning steps were explored during the project to ensure data quality. Any zero values in Cost_Price or Retail_Price were checked and replaced with NULL or default values using COALESCE, and the price columns were converted to DECIMAL(10,2) for consistency. Additionally, text fields such as Product_Type were standardized by capitalizing the first letter and converting the rest to lowercase. These steps were performed as part of the data preparation process to verify that price and product data were in the correct format.
 
 
 ---
