@@ -1,4 +1,4 @@
-# 📦 Supply Chain Insights: Product Performance, Brand Value, Supplier Trends
+# 📦 Supply Chain Insights: Product Performance, Brand Value and Supplier Trends
 
 This project is an end-to-end SQL analysis of an electronics company, where the three main business questions concerning the management of stock and sales performance are answered using the products, inventory, and suppliers datasets.
 
