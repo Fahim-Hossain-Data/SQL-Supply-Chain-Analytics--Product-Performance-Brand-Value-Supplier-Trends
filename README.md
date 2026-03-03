@@ -26,7 +26,7 @@ The `SQL_Portfolio` database was created with five tables to address the busines
 </div>
 
 ### 📈 Data Generation Plan
-All tables, except the datetime table, were populated from the `staging database`, where four external Excel files related to [product](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Product_info.xlsx), [suppliers](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Suppliers_info.xlsx), [ received_purchase_orders](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Fact_Received.xlsx), and [stock_level](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Fact_Stock.xlsx) had been previously uploaded. A SQL script was used to create the datetime table by creating dates between 1/1/25 and 12/31/25.
+All tables, except the datetime table, were populated from the `staging database`, where four external Excel files related to [product](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Product_info.xlsx), [suppliers](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Suppliers_info.xlsx), [ received_purchase_orders](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Fact_Received.xlsx), and [stock_level](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/b0288433ebd1392fcda7940455cbdfd884627fbb/Fact_Stock.xlsx) had been previously imported. A SQL script was used to create the datetime table by creating dates between 1/1/25 and 12/31/25.
 
 *The following figure depicts the database tables name along with the data generation plan used to populate them.*
 <p align="center">
@@ -48,7 +48,7 @@ Each fact table is connected to the three dimension tables, establishing relatio
 
 ---
 
-## 📋 Business Questions & [SQL Functions](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/21721845e0c951d62deb50fdbf61d5d42f37f039/2.%20SQL_Qustion%26Answer.sql)
+## 📋 Business Questions: Answers & [SQL Functions](https://github.com/Fahim-Hossain-Data/SQL-Supply-Chain-Analytics--Product-Performance-Brand-Value-Supplier-Trends/blob/21721845e0c951d62deb50fdbf61d5d42f37f039/2.%20SQL_Qustion%26Answer.sql)
 
 The following section presents the answers to the questions along with the SQL queries used, and lists the SQL functions applied to solve each question.
 
@@ -59,6 +59,7 @@ The following section presents the answers to the questions along with the SQL q
 
 📝 The brands with restocking of more than 50 units in June and December 2025 were JVC, MSCS, Sennheiser, Sony, and Toshiba. The electronics company received the highest number of units (543) from MSCS, followed by Toshiba with 202 units. Sennheiser, JVC, and Sony ranked 3rd, 4th, and 5th respectively in terms of total received units.
 However, Sony had the highest average stock value despite being in 5th position based on total received units. In contrast, Toshiba recorded the lowest average stock value among the five brands.
+For next year, these findings can help optimize inventory management by ensuring that products with high average stock value are appropriately stocked, even if their total restocking volume is lower.
 
 *The results of the stock analysis are presented in the figure below, where the overall received units and the average stock value by brand during the period of July-December 2025 are shown.*
 <p align="center">
@@ -104,7 +105,7 @@ Low velocity (less than 60 units) to understand sales performance trends.**
 ---
 
 ### ⚙️ Data Cleaning / Preprocessing
-A number of data cleaning procedures were researched in the project to guarantee data quality. Cost_Price and Retail_Price had to be checked to contain any zero values and transformed to NULL or default values using COALESCE and the price columns changed to DECIMAL(10,2) in consistency. Also the text fields like Product_Type were standardized by capitalizing the first letter and changing the remaining to lowercase. These steps were performed as part of the data preparation process to verify that price and product data were in the correct format.
+A number of data cleaning procedures were applied in the project to ensure data quality. Cost_Price and Retail_Price had to be checked to contain any zero values and transformed to NULL or default values using COALESCE and the price columns changed to DECIMAL(10,2) in consistency. Also the text fields like Product_Type were standardized by capitalizing the first letter and changing the remaining to lowercase. These steps were performed as part of the data preparation process to verify that price and product data were in the correct format.
 
 
 ---
